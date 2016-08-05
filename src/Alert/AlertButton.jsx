@@ -10,7 +10,7 @@ class AlertButton extends React.Component {
   }
   render() {
     return (
-      <button onClick={this.alertText}>我是一個 {this.props.text} 按鈕</button>
+      <button onClick={this.alertText}>{this.props.num}我是一個 {this.props.text} 按鈕</button>
     );
   }
 }
